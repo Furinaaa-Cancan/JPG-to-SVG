@@ -1,0 +1,36 @@
+{
+  "created_at": "2025-12-14T13:45:38.395917",
+  "last_updated": "2025-12-14T13:45:38.395918",
+  "total_count": 1,
+  "styles_count": 34,
+  "settings": {
+    "target_resolution": "<=1280px",
+    "target_colors": "24-64",
+    "target_file_size": "80MB+",
+    "simplify": "0.00001-0.00005",
+    "inference_steps": 30,
+    "guidance_scale": 10.0
+  },
+  "files": [
+    {
+      "version": 1,
+      "style_key": "cubism_analytical",
+      "style_name": "分析立体主义",
+      "artists": [
+        "Pablo Picasso",
+        "Georges Braque"
+      ],
+      "seed": 336199257,
+      "strength": 0.8,
+      "num_colors": 24,
+      "simplify": 0.008,
+      "inference_steps": 30,
+      "guidance_scale": 10.0,
+      "file_size_mb": 0.03,
+      "svg_file": "art_v001_cubism_analytical.svg",
+      "generated_at": "2025-12-14T13:45:38.395337",
+      "prompt": "analytical cubism masterpiece, portrait fragmented into intersecting geometric planes, multiple simultaneous viewpoints, monochromatic earth tones brown gray ochre beige, shattered crystalline forms, intellectual deconstruction of form, overlapping transparent angular planes, spatial ambiguity, 1910 Paris avant-garde revolutionary painting, museum quality fine art, extremely detailed brushwork, high resolution masterpiece",
+      "negative_prompt": "bright colors, smooth, realistic, photographic, soft edges, blurry, low quality"
+    }
+  ]
+}

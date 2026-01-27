@@ -147,7 +147,26 @@ tensorboard/
 # OS specific
 .DS_Store
 Thumbs.db
+._*
 
 # BPE vocabulary files
 *.bpe
 *.vocab
+
+# ========== Project Specific ==========
+
+# Large model files (DO NOT UPLOAD)
+models/
+*.onnx
+
+# Output files (regeneratable)
+02_output/
+
+# Virtual environment
+.venv/
+
+# Input test images (user-specific)
+01_input/
+
+# Archive (old experiments)
+archive/

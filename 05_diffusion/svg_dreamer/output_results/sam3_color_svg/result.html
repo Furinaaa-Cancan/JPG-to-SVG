@@ -1,0 +1,38 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>SAM3 + Color Vectorization (Fast)</title>
+            <style>
+                body { margin:0; background:#0a0a0a; color:#fff; font-family:sans-serif; }
+                .header { text-align:center; padding:50px; background:linear-gradient(135deg,#667eea,#764ba2); }
+                h1 { font-size:3em; margin:0; }
+                .stats { display:flex; justify-content:center; gap:40px; margin-top:20px; }
+                .stat { background:rgba(0,0,0,0.3); padding:15px 30px; border-radius:25px; }
+                .grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; padding:40px; max-width:1400px; margin:0 auto; }
+                .card { background:#1a1a1a; border-radius:15px; overflow:hidden; }
+                .card-header { padding:15px; background:#2a2a2a; font-weight:bold; text-align:center; }
+                img, object { width:100%; display:block; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>⚡ SAM3 + 颜色量化 (12核加速)</h1>
+                <div class="stats">
+                    <span class="stat">📊 11349 路径</span>
+                    <span class="stat">📦 10177 KB</span>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">📷 原图</div>
+                    <img src="../..//Volumes/Seagate/SAM3/13_SVG_Diffusion/output_enhanced/temp_20251203_094506.png">
+                </div>
+                <div class="card">
+                    <div class="card-header">✨ SVG矢量</div>
+                    <object data="sam3_color_vector.svg" type="image/svg+xml"></object>
+                </div>
+            </div>
+        </body>
+        </html>
+        
