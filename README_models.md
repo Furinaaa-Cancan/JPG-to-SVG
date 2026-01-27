@@ -1,31 +1,31 @@
-# SAM3 基础模型库
+# SAM3 Foundation Models
 
-这是一个包含SAM3和Stable Diffusion基础模型的干净工作空间。
+A clean workspace containing SAM3 and Stable Diffusion foundation models.
 
-## 模型结构
+## Model Structure
 
 ```
-模型库/
-├── 01_SAM3核心模型/     # SAM3分割模型
-└── 02_StableDiffusion模型/
-    └── 基础模型/        # SD基础生成模型
+models/
+├── sam3/                    # SAM3 Segmentation Models
+└── stable_diffusion/
+    └── base_models/         # SD Base Generation Models
 ```
 
-## 模型内容
+## Model Contents
 
-### SAM3核心模型
-- Facebook的Segment Anything Model 3
-- 用于图像分割和对象检测
+### SAM3 Core Models
+- Facebook's Segment Anything Model 3
+- Used for image segmentation and object detection
 
-### Stable Diffusion基础模型
-- SDXL系列（Base, Turbo, Inpainting）
-- SD 3.5系列（Large Turbo, Medium）
-- SD 1.5系列（v1.5, Inpainting）
-- Flux（Schnell）
+### Stable Diffusion Base Models
+- SDXL Series (Base, Turbo, Inpainting)
+- SD 3.5 Series (Large Turbo, Medium)
+- SD 1.5 Series (v1.5, Inpainting)
+- Flux (Schnell)
 
-## 使用说明
+## Usage
 
-这是一个干净的基础模型库，可以作为新项目的起点。
+This is a clean foundation model library that can serve as a starting point for new projects.
 
 ## License
 
