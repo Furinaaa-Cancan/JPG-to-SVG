@@ -48,6 +48,25 @@ Traditional vectorization tools face a fundamental dilemma:
 
 **Our solution**: A **Hierarchical Hybrid Representation** system that intelligently selects the optimal vectorization method for each semantic region, achieving the best balance between file size, visual quality, and editability.
 
+### 🖼️ Vectorization Quality Comparison
+
+The image below demonstrates different quality levels of our vectorization system, from minimal (fast, small file) to full detail (high quality, larger file):
+
+<div align="center">
+
+![Vectorization Quality Comparison](examples/vectorization-comparison.jpg)
+
+*From left to right: (a) Original Image, (b) Minimal (~224KB), (c) Simple (~3.9MB), (d) Medium (~86.4MB), (e) Detailed (~227MB), (f) Full Detail (~325MB)*
+
+</div>
+
+**Key Observations:**
+- **Minimal Mode**: Fastest processing (1.2 min), smallest file size, suitable for previews
+- **Simple Mode**: Good balance for web graphics (1.3 min processing)
+- **Medium Mode**: Recommended for most use cases (3.0 min)
+- **Detailed Mode**: High-quality output for professional work (7.8 min)
+- **Full Detail Mode**: Maximum fidelity for archival purposes (12.3 min)
+
 ---
 
 ## ✨ Features
